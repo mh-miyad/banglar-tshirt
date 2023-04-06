@@ -10,6 +10,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import './index.css'
+import OrderSummery from './Pages/OrderSummery'
 
 
 const router = createBrowserRouter([
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: "/Product",
         element: <Product/>,
+      },
+      {
+        path: "/orderSummry",
+        element: <OrderSummery/>,
       },
       {
         path: "*",
