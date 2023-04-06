@@ -1,7 +1,7 @@
 import { Button, Card } from 'flowbite-react'
 import React from 'react'
 
-const CartCom = ({img,title,description}) => {
+const CartCom = ({img,title,description ,handeler,id}) => {
   return (
     <div>
 
@@ -17,7 +17,7 @@ const CartCom = ({img,title,description}) => {
      {description}
     </p>
     <div className='flex justify-between'>
-        <Button color={'failure'}> Add Cart</Button>
+        <Button color={'failure'} onClick={()=>handeler(id)}> Add Cart</Button>
         <Button color={'success'}> Buy Now</Button>
     </div>
   </Card>

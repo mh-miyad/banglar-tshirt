@@ -1,8 +1,13 @@
 import React from 'react'
+import OrderSumery from '../Component/OrderSumery'
 
 const OrderSummery = () => {
   return (
-    <div>OrderSummery</div>
+    <div>
+      <OrderSumery/>
+
+
+    </div>
   )
 }
 
