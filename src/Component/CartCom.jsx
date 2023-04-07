@@ -9,7 +9,8 @@ const CartCom = ({img,title,description}) => {
 
 
 <div className="max-w-xs">
-  <Card imgSrc={img} className=''>
+  <Card>
+    <img src={img} alt="" className='w-10/12 object-cover h-full ' />
     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
     {title}
     </h5>
