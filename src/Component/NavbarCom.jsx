@@ -28,6 +28,9 @@ const NavbarCom = () => {
           <Navbar.Link>
             <NavLink to={"/product"}>Product</NavLink>
           </Navbar.Link>
+          <Navbar.Link>
+            <NavLink to={"/orderSummry"}>OrderSummery</NavLink>
+          </Navbar.Link>
         </Navbar.Collapse>
       </Navbar>
     </div>
