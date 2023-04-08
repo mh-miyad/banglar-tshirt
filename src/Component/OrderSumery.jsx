@@ -1,14 +1,17 @@
 import React from "react";
 import { HiOutlineTrash} from 'react-icons/hi';
 
-const OrderSumery = ({quantity ,title ,color ,opacity }) => {
+const OrderSumery = ({quantity ,title ,img}) => {
+
+
+  
   return (
-    <div className={`bg-${color}-${opacity}`}>
+    <div>
       <div className="  rounded-lg px-5">
         <div className="flex  items-center justify-between ">
           <img
-            src="https://media.istockphoto.com/id/465485445/photo/red-t-shirt-clipping-path.jpg?s=612x612&w=0&k=20&c=SfSPtHeslymJs8KbopzzDWHZzYIAdMMnfon0JRkwfVw="
-            alt=""
+            src= {img}
+            alt={title}
             className="w-20 h-20 object-contain  rounded-xl"
           />
           <div className="">
